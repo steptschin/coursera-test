@@ -1,0 +1,75 @@
+#header-nav {
+  background-color: #aaaaaa;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.navbar-header {
+	height: 60px;
+}
+
+.navbar-header button.navbar-toggle {
+  border: 1px solid black;
+  margin-top: 12px;
+}
+
+.navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+#nav-list div:hover {
+  background: #bbbbbb;
+}
+
+.nav-el {
+    font-size: 20px;
+}
+
+hr {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: 1px solid black;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 0px;
+	color: black;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	color: black;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	color: black;
+}
+
+.row {
+	background-color: #aaaaaa;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+#text {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+
+#collapsable-nav {
+  border: 1px solid black;
+  background: #dddddd;
+} 
+
+}
